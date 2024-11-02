@@ -1,5 +1,5 @@
 import './App.css'
-import ListHeader from './components/ListHeader';
+import ListHeader from './components/ListHeader/ListHeader';
 
 const App = () => {
 

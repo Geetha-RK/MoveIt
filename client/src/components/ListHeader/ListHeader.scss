@@ -1,0 +1,20 @@
+.ListHeader{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: rgba(0,0,0,0.05) 1px solid;
+}
+.button-container{
+    display: flex;
+    align-items: center;
+
+    &__create,
+    &__Signout
+    {
+        margin: 0 5px;
+        padding: 5px 10px;
+        border-radius: 12px;
+        background-color: transparent;
+        font-size: 10px;
+    }
+}
